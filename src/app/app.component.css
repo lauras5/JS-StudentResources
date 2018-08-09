@@ -1,0 +1,26 @@
+
+h1, p {
+    text-align: center;
+}
+
+#navA {
+    background-color: #607d8b;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navLink {
+    padding: 10px;
+    text-decoration: none;
+    color: #888888;
+    /* font-weight: bold; */
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#titleTop {
+    background-color: salmon;
+}
+

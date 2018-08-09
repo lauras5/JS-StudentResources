@@ -1,0 +1,17 @@
+<!-- took out of main hero html and now it is a reusable component -->
+<div *ngIf="hero">
+  <h2>{{ hero.name | uppercase }} Method</h2>
+  <!-- <div> -->
+    <!-- <span>id: </span> {{hero.id}}</div> -->
+    <!-- <div>
+    <label>Method :
+      {{hero.name}}
+    </label>
+  </div> -->
+    <div>
+      <p>The {{ hero.name }} method allows you to {{hero.snippet}} </p>
+      <img class='arrEx' src={{hero.example}} alt="none">
+    </div>
+    <button (click)="goBack()">go back</button>
+
+  </div>
